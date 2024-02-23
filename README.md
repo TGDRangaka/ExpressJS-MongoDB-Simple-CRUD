@@ -6,6 +6,7 @@ This is a simple CRUD (Create, Read, Update, Delete) API project built using Exp
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Packages](#packages)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -21,6 +22,14 @@ This project is a basic CRUD API that allows you to perform operations on a Mong
 - Read existing records
 - Update existing records
 - Delete records
+
+## Packages
+
+Used npm packages for this project.
+
+ - express
+ - mongoose
+ - nodemon
 
 ## Getting Started
 
@@ -47,13 +56,14 @@ This project is a basic CRUD API that allows you to perform operations on a Mong
    ```bash
    npm install
 
-4. Set MongoDB Atlas details in atlas_uri.js and express-mongodb.js(database & collection)
+4. Set your MongoDB Atlas details in atlas_uri.js --- If don
+t have one Create a new MongoDB Atlas Account [here.](https://www.mongodb.com/cloud/atlas/register)
 
-5. Run express-mongodb.js file:
+5. Run Project:
 
    ```bash
-   node express-mongodb.js
+   npm start
 
 
 ## API Endpoints
-Check Postman API documentation [here](https://documenter.getpostman.com/view/28151984/2sA2rB1NnD).
+Check Postman API documentation [here.](https://documenter.getpostman.com/view/28151984/2sA2rB1NnD)
